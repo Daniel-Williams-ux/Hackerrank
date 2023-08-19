@@ -1,1 +1,1 @@
-# Hackerrank
+Algorithms and data structures
