@@ -28,3 +28,9 @@ element removed. Since you're comparing arrays (which are objects) and not primi
 
 So, when comparing arrays, objects, or other complex data structures, it's more appropriate to use toEqual because it performs a 
 deep equality check. In contrast, toBe is better suited for simple primitive values like strings, numbers, and booleans.*/
+
+
+/*The pop() method returns the item that was removed. To save that item in a new variable, you could do this:*/
+const cities = ["Manchester", "Liverpool"];
+const removedCity = cities.pop();
+console.log(removedCity); // "Liverpool"
