@@ -22,6 +22,7 @@ while (i <= 10) {
 
 console.log("The sum of numbers from 1 to 10 is: " + sum);
 
+//Intermediate
 // 3. Construct a while loop that prompts the user to enter numbers until they enter a negative number. 
 //Calculate the sum of all positive numbers entered.
 let sum = 0;
